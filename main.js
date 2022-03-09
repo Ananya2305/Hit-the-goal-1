@@ -21,8 +21,9 @@ function load_img(){
 			top:hole_y,
 			left:hole_x
 		});
+		canvas.add(hole);
 	});
-	canvas.add(hole);
+	
 	new_image();
 }
 
